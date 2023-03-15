@@ -1,0 +1,26 @@
+{
+  "name": "iotplatform",
+  "version": "1.0.0",
+  "description": "This is an IoT platform to receive and store data from a DHT Sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "iot",
+    "platform",
+    "nodejs",
+    "mongodb",
+    "temperature",
+    "humidity"
+  ],
+  "author": "Gerald Mbuthia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
