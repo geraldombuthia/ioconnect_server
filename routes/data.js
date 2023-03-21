@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+// Contains the routes to data acquisition
+
 router.get("/", (req, res, next) => {
     res.json(["Data get"])
     console.log("data get");
